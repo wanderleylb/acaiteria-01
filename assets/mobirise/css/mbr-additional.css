@@ -2387,11 +2387,11 @@ body {
   display: none;
 }
 .cid-qJtbKI8Nyk P {
-  color: #1c710c;
+  color: #290e3d;
   text-align: center;
 }
 .cid-qJtbKI8Nyk B {
-  color: #1c710c;
+  color: #290e3d;
 }
 .cid-qJHc3P9Sej {
   padding-top: 0px;
@@ -2649,6 +2649,78 @@ body {
   transition: 0.2s background ease-in-out;
 }
 .cid-qKXKiUhwa2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qL4VNBDtBJ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qL4VNCnBK5 {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qL4VNCnBK5 .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qL4VNCnBK5 .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qL4VNCnBK5 .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qL4VNCnBK5 .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qL4VNCnBK5 .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qL4VNCnBK5 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qL4VNCnBK5 .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qL4VNCnBK5 .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qL4VNCnBK5 .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-qL4VNFfluh {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;

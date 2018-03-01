@@ -3,7 +3,7 @@
     "name": "Açaiteria",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 304,
+    "uniqCompNum": 307,
     "versionPublish": "4.6.5",
     "theme": {
       "name": "mobirise4",
@@ -42,7 +42,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/sem-ttulo.png",
     "noImageResize": "true"
   },
   "pages": {
@@ -715,7 +715,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/images2.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -732,7 +732,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/wanderley3-cpia.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -773,7 +773,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "cardapio",
-        "order": 15
+        "order": 11
       },
       "components": [
         {
@@ -790,7 +790,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-18.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-warning-outline\" href=\"index.html#slider1-k\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>INÍCIO</a> <a class=\"btn btn-md btn-warning\" href=\"page12.html#gallery1-6k\">HAMBURGUERES</a> <a class=\"btn btn-md btn-warning\" href=\"page3.html#gallery1-1h\">SALGADOS &nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page2.html#gallery1-4e\">DOCES &nbsp;&nbsp;</a> <a class=\"btn btn-md btn-warning\" href=\"page5.html#gallery1-1l\">SUCOS &nbsp;&nbsp;</a>    <a class=\"btn btn-md btn-warning\" href=\"undefined#gallery1-1j\">REFRIGERANTES</a> <a class=\"btn btn-md btn-warning\" href=\"page10.html#gallery1-6g\">DIVERSOS</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-18.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary-outline\" href=\"index.html#slider1-k\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>INÍCIO</a> <a class=\"btn btn-md btn-primary\" href=\"page11.html#gallery1-8h\">AÇAIS</a> <a class=\"btn btn-md btn-primary\" href=\"page12.html#gallery1-6k\">ACRÉSCIMOS</a> <a class=\"btn btn-md btn-primary\" href=\"page3.html#gallery1-1h\">SALGADOS &nbsp;</a> <a class=\"btn btn-md btn-primary\" href=\"page2.html#gallery1-4e\">DOCES &nbsp;&nbsp;</a> <a class=\"btn btn-md btn-primary\" href=\"page5.html#gallery1-1l\">SUCOS &nbsp;&nbsp;</a>    <a class=\"btn btn-md btn-primary\" href=\"undefined#gallery1-1j\">REFRIGERANTES</a> <a class=\"btn btn-md btn-primary\" href=\"page10.html#gallery1-6g\">DIVERSOS</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qJhuOSt8eJ",
           "_anchor": "header2-v",
           "_protectedParams": [],
@@ -804,7 +804,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "doces",
-        "order": 14
+        "order": 10
       },
       "components": [
         {
@@ -1031,7 +1031,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "salgados",
-        "order": 13
+        "order": 9
       },
       "components": [
         {
@@ -1257,7 +1257,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "sucos",
-        "order": 11
+        "order": 7
       },
       "components": [
         {
@@ -1483,7 +1483,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "quem_somos",
-        "order": 10
+        "order": 6
       },
       "components": [
         {
@@ -1615,7 +1615,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "localizacao",
-        "order": 9
+        "order": 5
       },
       "components": [
         {
@@ -1727,11 +1727,11 @@
               }
             },
             "P": {
-              "color": "#1c710c",
+              "color": "#290e3d",
               "text-align": "center"
             },
             "B": {
-              "color": "#1c710c"
+              "color": "#290e3d"
             }
           },
           "_name": "footer2",
@@ -1749,7 +1749,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "sugestoes_criticas",
-        "order": 8
+        "order": 4
       },
       "components": [
         {
@@ -1828,7 +1828,7 @@
       "settings": {
         "meta_descr": "",
         "title": "refrigerantes",
-        "order": 12
+        "order": 8
       },
       "components": [
         {
@@ -2054,7 +2054,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "diversos",
-        "order": 6
+        "order": 3
       },
       "components": [
         {
@@ -2280,8 +2280,8 @@
     "page12.html": {
       "settings": {
         "meta_descr": "Site Maker Description",
-        "title": "hamburgueres",
-        "order": 4
+        "title": "acréscimos",
+        "order": 2
       },
       "components": [
         {
@@ -2501,6 +2501,233 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "meta_descr": "Site Maker Description",
+        "title": "açais",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"page1.html#header2-v\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;CARDÁPIO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "qL4VNBDtBJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-8g"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n\n</section>",
+          "_isUserblock": true,
+          "_cid": "qL4VNCnBK5",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/hamburguer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hamburguer-799x500.jpg",
+                "alt": "Abrobrinha recheada com linguiça",
+                "customStyle1": "display-7",
+                "caption": "HAMBURGER<br>Pão, hambúrguer, alface, tomate, milho e batata palha<br><br>R$ 8,40",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/x-burguer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-burguer-799x500.jpg",
+                "alt": "Antepasto de beringela",
+                "customStyle1": "display-7",
+                "caption": "X-BURGUER<br>Pão, hamburguer, queijo, alface, tomate, milho e batata palha<br><br>R$ 8,60",
+                "active": true
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/x-egg-burger.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-egg-burger-799x500.jpg",
+                "alt": "Aspargos com presunto de parma",
+                "customStyle1": "display-7",
+                "caption": "X-EGG-BURGUER<br>Pão, hambúrguer, ovo, 2 presuntos, queijo, alface, tomate, milho e batata palha<br><br>RS 11,60",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/x-bacon.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-bacon-799x500.jpg",
+                "alt": "Batata assada crocante",
+                "customStyle1": "display-7",
+                "caption": "X-BACON<br>Pão, hambúrguer, presunto, queijo, bacon, alface, tomate, milho e batata palha<br><br>R$ 11,30",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/x-egg-burger.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-egg-burger-799x500.jpg",
+                "alt": "Batata Hasselback",
+                "customStyle1": "display-7",
+                "caption": "X-EGG-BACON<br>Pão, hambúrguer, ovo, bacon, presunto, queijo, alface, tomate, milho e batata palha<br><br>R$ 13,70",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/americano.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/americano-799x500.jpg",
+                "alt": "Bolinho de arroz com parmezão",
+                "customStyle1": "display-7",
+                "caption": "AMERICANO<br>Pão, ovo, bacon, presunto, queijo, alface, tomate, milho e batata palha<br><br>R$ 12,50",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/x-tudo.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/x-tudo-799x500.jpg",
+                "alt": "Entrecotê",
+                "customStyle1": "display-7",
+                "caption": "X-TUDO<br>Pão, hambúrguer de boi, hambúrguer de frango, ovo, bacon, presunto, queijo, Alface, tomate, milho e batata palha<br><br>R$ 14,30",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/framburguer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/framburguer-799x500.jpg",
+                "alt": "La trave bistrô",
+                "customStyle1": "display-7",
+                "caption": "FRAMBURGUER<br>Pão, hambúrguer de frango, ovo, bacon, queijo, alface, tomate, milho e batata palha<br><br>R$ 12,60",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery1-8h"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"page1.html#header2-v\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;CARDÁPIO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "qL4VNFfluh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-8i"
         }
       ]
     }
