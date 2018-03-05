@@ -967,7 +967,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/trufas-1-1200x750-799x500.jpg",
                 "alt": "TRUFAS",
                 "customStyle1": "display-7",
-                "caption": "TRUFAS<br>R$ 3,40<br><br>",
+                "caption": "TRUFAS<br>R$ 3,40<br>",
                 "active": true
               },
               {
@@ -1003,7 +1003,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mousse-1-1200x750-799x500.jpg",
                 "alt": "MOUSE",
                 "customStyle1": "display-7",
-                "caption": "MOUSE<br>R$ 3,80<br><br>",
+                "caption": "<br>MOUSE<br>R$ 3,80<br>",
                 "active": false
               }
             ]
